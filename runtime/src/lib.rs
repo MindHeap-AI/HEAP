@@ -45,6 +45,11 @@ pub mod static_ids;
 pub mod status_cache;
 pub mod transaction_batch;
 pub mod vote_sender_types;
+pub mod ai_models;
+pub mod ai_executor;
+pub mod ai_scheduler;
+pub mod ai_verifier;
+pub mod ai_compute_pool;
 
 #[macro_use]
 extern crate solana_metrics;
