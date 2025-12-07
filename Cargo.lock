@@ -3545,6 +3545,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "heap-ai-executor-program"
+version = "0.1.0"
+dependencies = [
+ "borsh",
+ "solana-program",
+]
+
+[[package]]
 name = "heck"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -10271,6 +10279,7 @@ dependencies = [
  "base64 0.22.1",
  "bincode",
  "blake3",
+ "borsh",
  "bv",
  "bytemuck",
  "crossbeam-channel",
@@ -10398,6 +10407,7 @@ dependencies = [
  "tempfile",
  "test-case",
  "thiserror 2.0.17",
+ "tracing",
 ]
 
 [[package]]

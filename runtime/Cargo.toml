@@ -56,6 +56,9 @@ agave-fs = { workspace = true }
 agave-precompiles = { workspace = true }
 agave-reserved-account-keys = { workspace = true }
 agave-snapshots = { workspace = true }
+borsh = { workspace = true }
+tracing = { workspace = true }
+
 agave-syscalls = { workspace = true }
 agave-votor-messages = { workspace = true }
 ahash = { workspace = true }
@@ -223,3 +226,4 @@ name = "prioritization_fee_cache"
 
 [lints]
 workspace = true
+
